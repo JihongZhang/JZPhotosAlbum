@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1036E51947CE2700793D95 /* JZPhotoAlbumFirstPage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1036E41947CE2700793D95 /* JZPhotoAlbumFirstPage.m */; };
+		CF1036F11947E17A00793D95 /* JZCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1036F01947E17A00793D95 /* JZCheckBox.m */; };
+		CF3C57D81943F2F5001DC3E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57D71943F2F5001DC3E3 /* UIKit.framework */; };
+		CF3C57DA1943F2F5001DC3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57D91943F2F5001DC3E3 /* Foundation.framework */; };
+		CF3C57DC1943F2F5001DC3E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57DB1943F2F5001DC3E3 /* CoreGraphics.framework */; };
+		CF3C57E21943F2F5001DC3E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3C57E01943F2F5001DC3E3 /* InfoPlist.strings */; };
+		CF3C57E41943F2F5001DC3E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C57E31943F2F5001DC3E3 /* main.m */; };
+		CF3C57EA1943F2F5001DC3E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3C57E91943F2F5001DC3E3 /* Default.png */; };
+		CF3C57EC1943F2F5001DC3E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3C57EB1943F2F5001DC3E3 /* Default@2x.png */; };
+		CF3C57EE1943F2F5001DC3E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3C57ED1943F2F5001DC3E3 /* Default-568h@2x.png */; };
+		CF3C57F11943F2F5001DC3E3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3C57EF1943F2F5001DC3E3 /* MainStoryboard.storyboard */; };
+		CF3C57FC1943F2F6001DC3E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57FB1943F2F6001DC3E3 /* SenTestingKit.framework */; };
+		CF3C57FD1943F2F6001DC3E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57D71943F2F5001DC3E3 /* UIKit.framework */; };
+		CF3C57FE1943F2F6001DC3E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C57D91943F2F5001DC3E3 /* Foundation.framework */; };
+		CF3C58061943F2F6001DC3E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58041943F2F6001DC3E3 /* InfoPlist.strings */; };
+		CF3C58091943F2F6001DC3E3 /* JZPhotosAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C58081943F2F6001DC3E3 /* JZPhotosAlbumTests.m */; };
+		CF3C58141943F4E1001DC3E3 /* JZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C58131943F4E1001DC3E3 /* JZCollectionViewController.m */; };
+		CF3C58281943F708001DC3E3 /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58171943F708001DC3E3 /* angry_birds_cake.jpg */; };
+		CF3C58291943F708001DC3E3 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58181943F708001DC3E3 /* creme_brelee.jpg */; };
+		CF3C582A1943F708001DC3E3 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58191943F708001DC3E3 /* egg_benedict.jpg */; };
+		CF3C582B1943F708001DC3E3 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581A1943F708001DC3E3 /* full_breakfast.jpg */; };
+		CF3C582C1943F708001DC3E3 /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581B1943F708001DC3E3 /* green_tea.jpg */; };
+		CF3C582D1943F708001DC3E3 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581C1943F708001DC3E3 /* ham_and_cheese_panini.jpg */; };
+		CF3C582E1943F708001DC3E3 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581D1943F708001DC3E3 /* ham_and_egg_sandwich.jpg */; };
+		CF3C582F1943F708001DC3E3 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581E1943F708001DC3E3 /* hamburger.jpg */; };
+		CF3C58301943F708001DC3E3 /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C581F1943F708001DC3E3 /* instant_noodle_with_egg.jpg */; };
+		CF3C58311943F708001DC3E3 /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58201943F708001DC3E3 /* japanese_noodle_with_pork.jpg */; };
+		CF3C58321943F708001DC3E3 /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58211943F708001DC3E3 /* mushroom_risotto.jpg */; };
+		CF3C58331943F708001DC3E3 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58221943F708001DC3E3 /* noodle_with_bbq_pork.jpg */; };
+		CF3C58341943F708001DC3E3 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58231943F708001DC3E3 /* photo-frame.png */; };
+		CF3C58351943F708001DC3E3 /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58241943F708001DC3E3 /* starbucks_coffee.jpg */; };
+		CF3C58361943F708001DC3E3 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58251943F708001DC3E3 /* thai_shrimp_cake.jpg */; };
+		CF3C58371943F708001DC3E3 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58261943F708001DC3E3 /* vegetable_curry.jpg */; };
+		CF3C58381943F708001DC3E3 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF3C58271943F708001DC3E3 /* white_chocolate_donut.jpg */; };
+		CF3C583B19441633001DC3E3 /* JZRecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C583A19441633001DC3E3 /* JZRecipeViewController.m */; };
+		CF3C593E19457032001DC3E3 /* JZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C593D19457032001DC3E3 /* JZAppDelegate.m */; };
+		CF3C59401945705B001DC3E3 /* photo.json in Resources */ = {isa = PBXBuildFile; fileRef = CF3C593F1945705B001DC3E3 /* photo.json */; };
+		CF3C594B194574F1001DC3E3 /* JZPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C594A194574F1001DC3E3 /* JZPhotoModel.m */; };
+		CF3C594E1945751D001DC3E3 /* JZPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C594D1945751D001DC3E3 /* JZPhotoItem.m */; };
+		CF3C59521945F5EC001DC3E3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C59511945F5EC001DC3E3 /* libsqlite3.dylib */; };
+		CFDA0C621948099E00D43D27 /* checkbox_no.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA0C601948099E00D43D27 /* checkbox_no.png */; };
+		CFDA0C631948099E00D43D27 /* checkbox_yes.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDA0C611948099E00D43D27 /* checkbox_yes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3C57FF1943F2F6001DC3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3C57CA1943F2F5001DC3E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3C57D21943F2F5001DC3E3;
+			remoteInfo = JZPhotosAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1036E31947CE2700793D95 /* JZPhotoAlbumFirstPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPhotoAlbumFirstPage.h; sourceTree = "<group>"; };
+		CF1036E41947CE2700793D95 /* JZPhotoAlbumFirstPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPhotoAlbumFirstPage.m; sourceTree = "<group>"; };
+		CF1036EF1947E16C00793D95 /* JZCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCheckBox.h; sourceTree = "<group>"; };
+		CF1036F01947E17A00793D95 /* JZCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCheckBox.m; sourceTree = "<group>"; };
+		CF3C57D31943F2F5001DC3E3 /* JZPhotosAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZPhotosAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C57D71943F2F5001DC3E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF3C57D91943F2F5001DC3E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3C57DB1943F2F5001DC3E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF3C57DF1943F2F5001DC3E3 /* JZPhotosAlbum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JZPhotosAlbum-Info.plist"; sourceTree = "<group>"; };
+		CF3C57E11943F2F5001DC3E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3C57E31943F2F5001DC3E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3C57E51943F2F5001DC3E3 /* JZPhotosAlbum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JZPhotosAlbum-Prefix.pch"; sourceTree = "<group>"; };
+		CF3C57E91943F2F5001DC3E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF3C57EB1943F2F5001DC3E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF3C57ED1943F2F5001DC3E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF3C57F01943F2F5001DC3E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CF3C57FA1943F2F6001DC3E3 /* JZPhotosAlbumTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZPhotosAlbumTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3C57FB1943F2F6001DC3E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF3C58031943F2F6001DC3E3 /* JZPhotosAlbumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JZPhotosAlbumTests-Info.plist"; sourceTree = "<group>"; };
+		CF3C58051943F2F6001DC3E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3C58071943F2F6001DC3E3 /* JZPhotosAlbumTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPhotosAlbumTests.h; sourceTree = "<group>"; };
+		CF3C58081943F2F6001DC3E3 /* JZPhotosAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZPhotosAlbumTests.m; sourceTree = "<group>"; };
+		CF3C58121943F4E1001DC3E3 /* JZCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZCollectionViewController.h; sourceTree = "<group>"; };
+		CF3C58131943F4E1001DC3E3 /* JZCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZCollectionViewController.m; sourceTree = "<group>"; };
+		CF3C58171943F708001DC3E3 /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		CF3C58181943F708001DC3E3 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		CF3C58191943F708001DC3E3 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		CF3C581A1943F708001DC3E3 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		CF3C581B1943F708001DC3E3 /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		CF3C581C1943F708001DC3E3 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		CF3C581D1943F708001DC3E3 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		CF3C581E1943F708001DC3E3 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		CF3C581F1943F708001DC3E3 /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		CF3C58201943F708001DC3E3 /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		CF3C58211943F708001DC3E3 /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		CF3C58221943F708001DC3E3 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		CF3C58231943F708001DC3E3 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		CF3C58241943F708001DC3E3 /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		CF3C58251943F708001DC3E3 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		CF3C58261943F708001DC3E3 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		CF3C58271943F708001DC3E3 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		CF3C583919441633001DC3E3 /* JZRecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZRecipeViewController.h; sourceTree = "<group>"; };
+		CF3C583A19441633001DC3E3 /* JZRecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZRecipeViewController.m; sourceTree = "<group>"; };
+		CF3C593C19457032001DC3E3 /* JZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAppDelegate.h; sourceTree = "<group>"; };
+		CF3C593D19457032001DC3E3 /* JZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAppDelegate.m; sourceTree = "<group>"; };
+		CF3C593F1945705B001DC3E3 /* photo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photo.json; sourceTree = "<group>"; };
+		CF3C5949194574F1001DC3E3 /* JZPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPhotoModel.h; sourceTree = "<group>"; };
+		CF3C594A194574F1001DC3E3 /* JZPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPhotoModel.m; sourceTree = "<group>"; };
+		CF3C594C1945751D001DC3E3 /* JZPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPhotoItem.h; sourceTree = "<group>"; };
+		CF3C594D1945751D001DC3E3 /* JZPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPhotoItem.m; sourceTree = "<group>"; };
+		CF3C59511945F5EC001DC3E3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CFDA0C601948099E00D43D27 /* checkbox_no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_no.png; sourceTree = "<group>"; };
+		CFDA0C611948099E00D43D27 /* checkbox_yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_yes.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3C57D01943F2F5001DC3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C59521945F5EC001DC3E3 /* libsqlite3.dylib in Frameworks */,
+				CF3C57D81943F2F5001DC3E3 /* UIKit.framework in Frameworks */,
+				CF3C57DA1943F2F5001DC3E3 /* Foundation.framework in Frameworks */,
+				CF3C57DC1943F2F5001DC3E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C57F61943F2F6001DC3E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C57FC1943F2F6001DC3E3 /* SenTestingKit.framework in Frameworks */,
+				CF3C57FD1943F2F6001DC3E3 /* UIKit.framework in Frameworks */,
+				CF3C57FE1943F2F6001DC3E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3C57C81943F2F5001DC3E3 = {
+			isa = PBXGroup;
+			children = (
+				CF3C57DD1943F2F5001DC3E3 /* JZPhotosAlbum */,
+				CF3C58011943F2F6001DC3E3 /* JZPhotosAlbumTests */,
+				CF3C57D61943F2F5001DC3E3 /* Frameworks */,
+				CF3C57D41943F2F5001DC3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3C57D41943F2F5001DC3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C57D31943F2F5001DC3E3 /* JZPhotosAlbum.app */,
+				CF3C57FA1943F2F6001DC3E3 /* JZPhotosAlbumTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3C57D61943F2F5001DC3E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C59511945F5EC001DC3E3 /* libsqlite3.dylib */,
+				CF3C57D71943F2F5001DC3E3 /* UIKit.framework */,
+				CF3C57D91943F2F5001DC3E3 /* Foundation.framework */,
+				CF3C57DB1943F2F5001DC3E3 /* CoreGraphics.framework */,
+				CF3C57FB1943F2F6001DC3E3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3C57DD1943F2F5001DC3E3 /* JZPhotosAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C593C19457032001DC3E3 /* JZAppDelegate.h */,
+				CF3C593D19457032001DC3E3 /* JZAppDelegate.m */,
+				CF3C58121943F4E1001DC3E3 /* JZCollectionViewController.h */,
+				CF3C58131943F4E1001DC3E3 /* JZCollectionViewController.m */,
+				CF3C57EF1943F2F5001DC3E3 /* MainStoryboard.storyboard */,
+				CF3C583919441633001DC3E3 /* JZRecipeViewController.h */,
+				CF3C583A19441633001DC3E3 /* JZRecipeViewController.m */,
+				CF1036E31947CE2700793D95 /* JZPhotoAlbumFirstPage.h */,
+				CF1036E41947CE2700793D95 /* JZPhotoAlbumFirstPage.m */,
+				CF1036F01947E17A00793D95 /* JZCheckBox.m */,
+				CF1036EF1947E16C00793D95 /* JZCheckBox.h */,
+				CF3C57DE1943F2F5001DC3E3 /* Supporting Files */,
+			);
+			path = JZPhotosAlbum;
+			sourceTree = "<group>";
+		};
+		CF3C57DE1943F2F5001DC3E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C58A91945439D001DC3E3 /* Data */,
+				CF3C589319451DDA001DC3E3 /* Modle */,
+				CF3C58151943F6F8001DC3E3 /* image */,
+				CF3C57DF1943F2F5001DC3E3 /* JZPhotosAlbum-Info.plist */,
+				CF3C57E01943F2F5001DC3E3 /* InfoPlist.strings */,
+				CF3C57E31943F2F5001DC3E3 /* main.m */,
+				CF3C57E51943F2F5001DC3E3 /* JZPhotosAlbum-Prefix.pch */,
+				CF3C57E91943F2F5001DC3E3 /* Default.png */,
+				CF3C57EB1943F2F5001DC3E3 /* Default@2x.png */,
+				CF3C57ED1943F2F5001DC3E3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3C58011943F2F6001DC3E3 /* JZPhotosAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C58071943F2F6001DC3E3 /* JZPhotosAlbumTests.h */,
+				CF3C58081943F2F6001DC3E3 /* JZPhotosAlbumTests.m */,
+				CF3C58021943F2F6001DC3E3 /* Supporting Files */,
+			);
+			path = JZPhotosAlbumTests;
+			sourceTree = "<group>";
+		};
+		CF3C58021943F2F6001DC3E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C58031943F2F6001DC3E3 /* JZPhotosAlbumTests-Info.plist */,
+				CF3C58041943F2F6001DC3E3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3C58151943F6F8001DC3E3 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA0C601948099E00D43D27 /* checkbox_no.png */,
+				CFDA0C611948099E00D43D27 /* checkbox_yes.png */,
+				CF3C58161943F708001DC3E3 /* RecipePhotoImagePack */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CF3C58161943F708001DC3E3 /* RecipePhotoImagePack */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C58171943F708001DC3E3 /* angry_birds_cake.jpg */,
+				CF3C58181943F708001DC3E3 /* creme_brelee.jpg */,
+				CF3C58191943F708001DC3E3 /* egg_benedict.jpg */,
+				CF3C581A1943F708001DC3E3 /* full_breakfast.jpg */,
+				CF3C581B1943F708001DC3E3 /* green_tea.jpg */,
+				CF3C581C1943F708001DC3E3 /* ham_and_cheese_panini.jpg */,
+				CF3C581D1943F708001DC3E3 /* ham_and_egg_sandwich.jpg */,
+				CF3C581E1943F708001DC3E3 /* hamburger.jpg */,
+				CF3C581F1943F708001DC3E3 /* instant_noodle_with_egg.jpg */,
+				CF3C58201943F708001DC3E3 /* japanese_noodle_with_pork.jpg */,
+				CF3C58211943F708001DC3E3 /* mushroom_risotto.jpg */,
+				CF3C58221943F708001DC3E3 /* noodle_with_bbq_pork.jpg */,
+				CF3C58231943F708001DC3E3 /* photo-frame.png */,
+				CF3C58241943F708001DC3E3 /* starbucks_coffee.jpg */,
+				CF3C58251943F708001DC3E3 /* thai_shrimp_cake.jpg */,
+				CF3C58261943F708001DC3E3 /* vegetable_curry.jpg */,
+				CF3C58271943F708001DC3E3 /* white_chocolate_donut.jpg */,
+			);
+			path = RecipePhotoImagePack;
+			sourceTree = "<group>";
+		};
+		CF3C589319451DDA001DC3E3 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C5949194574F1001DC3E3 /* JZPhotoModel.h */,
+				CF3C594A194574F1001DC3E3 /* JZPhotoModel.m */,
+				CF3C594C1945751D001DC3E3 /* JZPhotoItem.h */,
+				CF3C594D1945751D001DC3E3 /* JZPhotoItem.m */,
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		CF3C58A91945439D001DC3E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C593F1945705B001DC3E3 /* photo.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3C57D21943F2F5001DC3E3 /* JZPhotosAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C580C1943F2F6001DC3E3 /* Build configuration list for PBXNativeTarget "JZPhotosAlbum" */;
+			buildPhases = (
+				CF3C57CF1943F2F5001DC3E3 /* Sources */,
+				CF3C57D01943F2F5001DC3E3 /* Frameworks */,
+				CF3C57D11943F2F5001DC3E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JZPhotosAlbum;
+			productName = JZPhotosAlbum;
+			productReference = CF3C57D31943F2F5001DC3E3 /* JZPhotosAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3C57F91943F2F6001DC3E3 /* JZPhotosAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3C580F1943F2F6001DC3E3 /* Build configuration list for PBXNativeTarget "JZPhotosAlbumTests" */;
+			buildPhases = (
+				CF3C57F51943F2F6001DC3E3 /* Sources */,
+				CF3C57F61943F2F6001DC3E3 /* Frameworks */,
+				CF3C57F71943F2F6001DC3E3 /* Resources */,
+				CF3C57F81943F2F6001DC3E3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3C58001943F2F6001DC3E3 /* PBXTargetDependency */,
+			);
+			name = JZPhotosAlbumTests;
+			productName = JZPhotosAlbumTests;
+			productReference = CF3C57FA1943F2F6001DC3E3 /* JZPhotosAlbumTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3C57CA1943F2F5001DC3E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JZ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = JZ;
+			};
+			buildConfigurationList = CF3C57CD1943F2F5001DC3E3 /* Build configuration list for PBXProject "JZPhotosAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF3C57C81943F2F5001DC3E3;
+			productRefGroup = CF3C57D41943F2F5001DC3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3C57D21943F2F5001DC3E3 /* JZPhotosAlbum */,
+				CF3C57F91943F2F6001DC3E3 /* JZPhotosAlbumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3C57D11943F2F5001DC3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C57E21943F2F5001DC3E3 /* InfoPlist.strings in Resources */,
+				CF3C57EA1943F2F5001DC3E3 /* Default.png in Resources */,
+				CF3C57EC1943F2F5001DC3E3 /* Default@2x.png in Resources */,
+				CF3C57EE1943F2F5001DC3E3 /* Default-568h@2x.png in Resources */,
+				CF3C57F11943F2F5001DC3E3 /* MainStoryboard.storyboard in Resources */,
+				CF3C58281943F708001DC3E3 /* angry_birds_cake.jpg in Resources */,
+				CF3C58291943F708001DC3E3 /* creme_brelee.jpg in Resources */,
+				CF3C582A1943F708001DC3E3 /* egg_benedict.jpg in Resources */,
+				CF3C582B1943F708001DC3E3 /* full_breakfast.jpg in Resources */,
+				CF3C582C1943F708001DC3E3 /* green_tea.jpg in Resources */,
+				CF3C582D1943F708001DC3E3 /* ham_and_cheese_panini.jpg in Resources */,
+				CF3C582E1943F708001DC3E3 /* ham_and_egg_sandwich.jpg in Resources */,
+				CF3C582F1943F708001DC3E3 /* hamburger.jpg in Resources */,
+				CF3C58301943F708001DC3E3 /* instant_noodle_with_egg.jpg in Resources */,
+				CF3C58311943F708001DC3E3 /* japanese_noodle_with_pork.jpg in Resources */,
+				CF3C58321943F708001DC3E3 /* mushroom_risotto.jpg in Resources */,
+				CF3C58331943F708001DC3E3 /* noodle_with_bbq_pork.jpg in Resources */,
+				CF3C58341943F708001DC3E3 /* photo-frame.png in Resources */,
+				CF3C58351943F708001DC3E3 /* starbucks_coffee.jpg in Resources */,
+				CF3C58361943F708001DC3E3 /* thai_shrimp_cake.jpg in Resources */,
+				CF3C58371943F708001DC3E3 /* vegetable_curry.jpg in Resources */,
+				CF3C58381943F708001DC3E3 /* white_chocolate_donut.jpg in Resources */,
+				CF3C59401945705B001DC3E3 /* photo.json in Resources */,
+				CFDA0C621948099E00D43D27 /* checkbox_no.png in Resources */,
+				CFDA0C631948099E00D43D27 /* checkbox_yes.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C57F71943F2F6001DC3E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C58061943F2F6001DC3E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF3C57F81943F2F6001DC3E3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3C57CF1943F2F5001DC3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C57E41943F2F5001DC3E3 /* main.m in Sources */,
+				CF3C58141943F4E1001DC3E3 /* JZCollectionViewController.m in Sources */,
+				CF3C583B19441633001DC3E3 /* JZRecipeViewController.m in Sources */,
+				CF3C593E19457032001DC3E3 /* JZAppDelegate.m in Sources */,
+				CF3C594B194574F1001DC3E3 /* JZPhotoModel.m in Sources */,
+				CF3C594E1945751D001DC3E3 /* JZPhotoItem.m in Sources */,
+				CF1036E51947CE2700793D95 /* JZPhotoAlbumFirstPage.m in Sources */,
+				CF1036F11947E17A00793D95 /* JZCheckBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3C57F51943F2F6001DC3E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3C58091943F2F6001DC3E3 /* JZPhotosAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3C58001943F2F6001DC3E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3C57D21943F2F5001DC3E3 /* JZPhotosAlbum */;
+			targetProxy = CF3C57FF1943F2F6001DC3E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF3C57E01943F2F5001DC3E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3C57E11943F2F5001DC3E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF3C57EF1943F2F5001DC3E3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3C57F01943F2F5001DC3E3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CF3C58041943F2F6001DC3E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3C58051943F2F6001DC3E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3C580A1943F2F6001DC3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF3C580B1943F2F6001DC3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3C580D1943F2F6001DC3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZPhotosAlbum/JZPhotosAlbum-Prefix.pch";
+				INFOPLIST_FILE = "JZPhotosAlbum/JZPhotosAlbum-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF3C580E1943F2F6001DC3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZPhotosAlbum/JZPhotosAlbum-Prefix.pch";
+				INFOPLIST_FILE = "JZPhotosAlbum/JZPhotosAlbum-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF3C58101943F2F6001DC3E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JZPhotosAlbum.app/JZPhotosAlbum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZPhotosAlbum/JZPhotosAlbum-Prefix.pch";
+				INFOPLIST_FILE = "JZPhotosAlbumTests/JZPhotosAlbumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF3C58111943F2F6001DC3E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JZPhotosAlbum.app/JZPhotosAlbum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JZPhotosAlbum/JZPhotosAlbum-Prefix.pch";
+				INFOPLIST_FILE = "JZPhotosAlbumTests/JZPhotosAlbumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3C57CD1943F2F5001DC3E3 /* Build configuration list for PBXProject "JZPhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C580A1943F2F6001DC3E3 /* Debug */,
+				CF3C580B1943F2F6001DC3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C580C1943F2F6001DC3E3 /* Build configuration list for PBXNativeTarget "JZPhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C580D1943F2F6001DC3E3 /* Debug */,
+				CF3C580E1943F2F6001DC3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3C580F1943F2F6001DC3E3 /* Build configuration list for PBXNativeTarget "JZPhotosAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3C58101943F2F6001DC3E3 /* Debug */,
+				CF3C58111943F2F6001DC3E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3C57CA1943F2F5001DC3E3 /* Project object */;
+}
